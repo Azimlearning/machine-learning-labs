@@ -21,6 +21,8 @@ Thumbs.db
 # Course material and data (not uploaded)
 ML LECTURE/
 ML LAB/*.pdf
+ML LAB/lab_sheets/
+ML LAB/lab_notes/
 ML LAB/all_datasets/*
 !ML LAB/all_datasets/README.md
 /all_datasets.zip
@@ -30,3 +32,7 @@ CLAUDE.md
 refdocs/
 .claude/
 lab01EXAMPLE.ipynb
+
+# Local-only: installers and group project docs
+*.exe
+ML PROJECT/

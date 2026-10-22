@@ -10,10 +10,10 @@ Email: fakhrul_22012087@utp.edu.my
 
 | Lab | Topic | Notebook | Status |
 |---|---|---|---|
-| 1 | Feature engineering and feature selection | `ML LAB/all_experiments/lab01_features_worked.ipynb` | Done |
-| 2 | Supervised learning workflow | | |
-| 3 | Supervised learning models | | |
-| 4 | Clustering and PCA | | |
+| 1 | Feature engineering and feature selection | `ML LAB/all_experiments/lab01/lab01_features_worked.ipynb` | Done |
+| 2 | Supervised learning workflow | `ML LAB/all_experiments/lab02/lab02_supervised_workflow.ipynb` | Done |
+| 3 | Supervised learning models | `ML LAB/all_experiments/lab03/lab03_model_families.ipynb` | Done |
+| 4 | Clustering and PCA | `ML LAB/all_experiments/lab04/lab04_clustering_pca.ipynb` | Done |
 | 5 | Anomaly detection and limited labels | | |
 | 6 | Reinforcement learning | | |
 | 7 | Deep learning: CNN | | |
@@ -37,15 +37,14 @@ cd "ML LAB"
 jupyter notebook
 ```
 
-Open the notebook in `all_experiments/` and run all cells. The notebooks also open in VS Code with the Jupyter extension, using the `ml` environment as the kernel.
+Open a notebook in its `all_experiments/labNN/` folder and run all cells. The notebooks also open in VS Code with the Jupyter extension, using the `ml` environment as the kernel.
 
 ## Folder layout
 
 ```
 ML LAB/
   all_datasets/      datasets (not uploaded)
-  all_experiments/   lab notebooks
-  models/            saved models
-  results/           lab outputs
+  all_experiments/   one folder per lab (labNN/), each with its notebook
+                     and the models that lab saves (labNN/models/)
   requirements.txt
 ```
