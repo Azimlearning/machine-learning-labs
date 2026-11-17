@@ -10,3 +10,4 @@ One folder per lab. Start Jupyter from the lab's own folder (or select the `ml` 
 | 4 | lab04 | lab04_clustering_pca.ipynb | digits_pca_logistic |
 | 5 | lab05 | lab05_anomaly_limited_labels.ipynb | |
 | 6 | lab06 | lab06_reinforcement_learning.ipynb | gridworld_q_table (.npy) |
+| 7 | lab07 | lab07_cnn.ipynb | digits_cnn (.pt, with card) |
